@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.containers {
+    max-width: 600px;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    width: 150px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.track-info {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.status {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.shipped {
+    font-weight: bold;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.track-info p {
+    margin-bottom: 5px;
+}
+
+.shipped,
+.delivered {
+    font-weight: bold;
+}
+
+.delivered {
+    color: green;
+}
+
+/* YourStyles.css */
+
+.view-more-btn {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .detailed-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add any additional styling as needed */
+  

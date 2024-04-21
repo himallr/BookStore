@@ -1,0 +1,19 @@
+/* 
+.sidebar {
+    width: 100px;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    max-height: 100vh;
+} */
+
+.sidebar .nav-link {
+    color: #495057;
+    text-align: center;
+}
+
+.sidebar .nav-link.active {
+    background-color: #33c863;
+    color: #fff;
+    border-radius: 40px;
+}

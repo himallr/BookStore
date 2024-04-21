@@ -1,0 +1,17 @@
+.horizontal-border-table {
+  border-collapse: collapse;
+  border-left: 2px solid #dee2e6;
+  border-right: 2px solid #dee2e6;
+}
+
+.horizontal-border-table th,
+.horizontal-border-table td {
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  padding: 10px 20px;
+}
+
+.horizontal-border-table tbody tr:last-child {
+  border-bottom: 2px solid #dee2e6;
+
+}

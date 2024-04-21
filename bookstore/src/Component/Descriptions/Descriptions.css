@@ -1,0 +1,43 @@
+.star-rating {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+}
+
+.star-filled {
+  color: #fdd835;
+  /* You can change this color to your desired filled star color */
+}
+
+.comment-box-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.add-comment-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-comment-button:hover {
+  background-color: #45a049;
+}

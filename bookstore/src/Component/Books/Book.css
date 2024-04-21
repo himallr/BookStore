@@ -1,0 +1,76 @@
+.image1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 200px;
+    transition: .5s ease;
+}
+
+.middle2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imgs2:hover .image1 {
+    opacity: 0.3;
+}
+
+.imgs2:hover .middle2 {
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/* YourStyles.css */
+
+.heart-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    outline: none;
+  }
+  
+  .heart-btn.favorited {
+    color: red;
+  }
+  
+  /* Add any additional styling as needed */
+  
+  .card-container {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .card-container:hover {
+    transform: translate(-10px, -10px);
+    box-shadow: 20px 20px 10px rgba(14, 30, 15, 0.2);
+    z-index: 2;
+  }
+  
+  .card-container.hovered {
+    transition: transform 0.9s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-container .middle2 {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .card-container:hover .middle2 {
+    opacity: 1;
+  }
+  
